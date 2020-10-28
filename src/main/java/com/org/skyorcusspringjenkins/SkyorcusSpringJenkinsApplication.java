@@ -21,6 +21,7 @@ public class SkyorcusSpringJenkinsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SkyorcusSpringJenkinsApplication.class, args);
+		System.out.println("Test");
 	}
 
 }
