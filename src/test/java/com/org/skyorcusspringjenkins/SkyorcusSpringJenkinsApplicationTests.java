@@ -20,6 +20,7 @@ class SkyorcusSpringJenkinsApplicationTests {
 
 		logger.info("Test case Executing");
 		logger.info("Test case Executing second log statement");
+		logger.info("Final Test with Jenkins");
 		assertEquals(true,true);
 	}
 
