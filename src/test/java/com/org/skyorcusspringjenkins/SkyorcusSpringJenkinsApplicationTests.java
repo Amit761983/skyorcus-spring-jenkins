@@ -16,7 +16,10 @@ class SkyorcusSpringJenkinsApplicationTests {
 	public static Logger logger = LoggerFactory.getLogger(SkyorcusSpringJenkinsApplication.class);
 
 	@Test
-	void contextLoads() {
+	contextLoads() {
+
+		logger.info("Test case Executing");
+		logger.info("Test case Executing second log statement");
 		assertEquals(true,true);
 	}
 
